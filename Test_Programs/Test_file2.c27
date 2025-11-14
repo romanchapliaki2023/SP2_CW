@@ -25,10 +25,11 @@ Start Var Int_4 _Aa1 , _Bb2 , _Cc5 , _Ma0 ;
     Print ( 0 )
   }
 
-  If Not (_Aa1 Le _Bb2 ++ _Cc5) {
+  If (_Aa1 Ge (_Bb2 ++ _Cc5) ) {
     Print ( 10 )
   } Else {
     Print ( 0 )
   }
  
+
 End
