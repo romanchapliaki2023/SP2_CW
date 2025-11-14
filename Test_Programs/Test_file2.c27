@@ -19,7 +19,7 @@ Start Var Int_4 _Aa1 , _Bb2 , _Cc5 , _Ma0 ;
     Print ( 0 )
   }
     
-  If Not ( _Aa1 Le 0 ) || Not ( _Bb2 Le 0 ) || Not ( _Cc5 Le 0 ) {
+  If Not ( _Aa1 Ge 0 ) || Not ( _Bb2 Ge 0 ) || Not ( _Cc5 Ge 0 ) {
     Print ( Sub 1 )
   } Else {
     Print ( 0 )
