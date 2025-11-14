@@ -6,7 +6,7 @@ Start Var Int_4 _Aa1 , _Bb2 , _Ca1 , _Cb2 , _Xv3;
  _Aa1 :> _Ca1
 _Cb0:
   If _Ca1 Ge _Bb2 ++ 1 {
-    Goto _Le0
+    Goto _Ce0
   }
   Print ( _Ca1 ** _Ca1 )
   _Ca1 ++ 1 :> _Ca1
@@ -34,6 +34,7 @@ _Ae0:
   Print ( _Xv3 )
 
 End
+
 
 
 
